@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Phantom by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -_->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/" alt="" /></span><span class="title">Noah Haselow</span>
+								</a> -->
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="resume.pdf">Resume</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1 style="line-height:0.75em"><br><a href="index.html">Noah Haselow</a><br><span style="font-size: 50%">Software Developer</span></h1>
+							<span class="image left"><img src="images/basketball-reference.png" alt="" /></span>
+                            <header>
+                            <h3>NBA Web Data Scraper<br><span style="font-size: 80%">Spring 2017 - current</span></h3>
+							<p>
+                                Every data analyst needs data, and my job was to get it to them!
+                            </p>
+                            <p>
+                                <strong>Built With: </strong>&nbsp; Java,&nbsp; JSoup
+                            </p>
+                            <p>
+                                <strong>What I Learned <span style="font-size: 75%">(so far)</span>: </strong> Efficiency matters! Instead of iterating through each possible url (14,000+ possibilities taking over 4 hours), the scraper iterates through a page of summaries of games for each month, determining valid urls, reducing the scraper's running time by over 90%.
+                            </p>
+                            <p>
+                                <strong>About the Project: </strong>In order to get their name out, the newly founded UW Sports Analytics Club decided to attend the 2017 MadHacks competition and built a regression model predicting NBA regular season game scores. My job on this team was to build a web scraper to retrieve data from basketball-reference.com and export it into a format that made it easy for the statisticians on our team to manipulate in R.
+                            </p>
+                            <p>
+                                I used JSoup's web scraping library to scrape through the 1200+ box scores from 2014-2016 to get 75+ stats per game. This list was then converted into a .csv file using the java.io package's FileWriter class.
+                            </p>
+                            <p>
+                                <strong>What's Next? </strong> I am currently working with a team of developers to develop an easy to use UI for statisticians which allows them to select a specific time period of data to scrape. We are also working on automating the scraper to get up-to-date game stats daily to continuously test the regression model.
+                            </p>
+                            </header>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="field half first">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="field half">
+										<input type="email" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="special" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow Me</h2>
+								<ul class="icons">
+                                    <!--<li><a href="tel:1-262-227-2873" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>-->
+									<li><a href="mailto:nhaselow@wisc.edu" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+									<li><a href="http://www.facebook.com/noah.haselow" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+                                    <br>
+									<li><a href="http://www.linkedin.com/in/noahhaselow" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                                    <li><a href="http://github.com/nhaselow" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
