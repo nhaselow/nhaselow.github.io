@@ -2345,7 +2345,7 @@
 
 		.image.left {
 			float: left;
-			padding: 0 1.5em 1em 0;
+			padding: 0 1.5em 0.7em 0;
 			top: 0.25em;
 		}
 
